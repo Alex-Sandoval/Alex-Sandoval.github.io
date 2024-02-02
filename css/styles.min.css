@@ -458,8 +458,9 @@ section .header {
 header {
     padding: 50px 0;
     border-bottom: solid 1px rgba(255, 255, 255, .2);
-    position: relative;
-    width: 1170px;
+    position:sticky;
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 100%;
     margin: 0 auto;
     transition: padding 300ms ease-in-out
 }
@@ -525,6 +526,7 @@ header .member-actions {
     right: 0;
     top: 41px;
     transition: all 300ms ease-in-out
+    
 }
 
 .down-arrow {
